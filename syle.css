@@ -1,0 +1,76 @@
+body{
+    margin:0 auto;
+    padding:0;
+}
+
+#menuBar{
+    background-color: rgb(238, 238, 238);
+    height: 40px;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+}
+
+#projectName{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+    left:10px;
+    float: left;
+}
+
+#buttonContainer{
+    margin: 0 auto;
+    width: 280px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.toggleButton{
+    padding: 7px 10px;
+    float: left;
+}
+
+.active{
+    background-color:aliceblue;
+}
+
+#toggleHtml{
+    line-height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#toggleCss,#toggleJavascript,#toggleOutput{
+    border-left: 1px solid black;
+    line-height: 100%;
+}
+
+#toggleOutput{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.panel{
+    width: 49%;
+    height: 500px;
+    float: left;
+}
+
+textarea{
+    border: 1px solid grey;
+    border-top: none;
+    resize: none;
+    border-left:none;
+}
+
+iframe{
+   float: left;
+}
+
+.clearPanel{
+    display: none;
+}
